@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.env
+.venv/
+
+# .NET / WPF
+client-wpf/**/bin/
+client-wpf/**/obj/
+*.user
+*.suo
+
+# Logs & OS
+*.log
+.DS_Store
+Thumbs.db
+
+# Tooling
+.idea/
+.vscode/
+engine/.mypy_cache/

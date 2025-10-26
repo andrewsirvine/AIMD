@@ -1,0 +1,24 @@
+{
+  "exam": "CT ABDOMEN PELVIS",
+  "sections": [
+    { "name": "LOWER CHEST", "default": "Normal." },
+    { "name": "LIVER", "default": "Normal." },
+    { "name": "GALLBLADDER/BILIARY", "default": "Normal." },
+    { "name": "PANCREAS", "default": "Normal." },
+    { "name": "SPLEEN", "default": "Normal." },
+    { "name": "ADRENALS", "default": "Normal." },
+    { "name": "KIDNEYS/URETERS", "default": "Normal." },
+    { "name": "URINARY BLADDER", "default": "Normal." },
+    { "name": "REPRODUCTIVE", "default": "Normal." },
+    { "name": "STOMACH", "default": "Normal." },
+    { "name": "SMALL BOWEL", "default": "Normal." },
+    { "name": "COLON", "default": "Normal." },
+    { "name": "APPENDIX", "default": "Normal." },
+    { "name": "PERITONEUM", "default": "Normal." },
+    { "name": "LYMPH NODES", "default": "None enlarged." },
+    { "name": "VASCULATURE", "default": "Normal." },
+    { "name": "BODY WALL", "default": "Normal." },
+    { "name": "MUSCULOSKELETAL", "default": "No acute abnormality." }
+  ],
+  "impression_style": { "bulleted": true, "terse": true }
+}

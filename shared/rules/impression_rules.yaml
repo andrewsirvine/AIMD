@@ -1,0 +1,23 @@
+version: 1
+defaults:
+  fallback_bullet: "No acute abnormality."
+  unmatched_summary: true
+rules:
+  - id: hepatic_alert
+    when:
+      section: LIVER
+      contains_any:
+        - steatosis
+        - lesion
+    action:
+      bullet: "Liver findings require dedicated follow-up."
+      priority: high
+  - id: hydronephrosis_alert
+    when:
+      section: KIDNEYS/URETERS
+      contains_any:
+        - hydronephrosis
+        - obstruction
+    action:
+      bullet: "Hydronephrosis noted."
+      priority: high

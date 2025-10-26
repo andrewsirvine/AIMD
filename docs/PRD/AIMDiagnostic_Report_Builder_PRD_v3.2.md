@@ -19,6 +19,7 @@ The system must:
 Initial rollout:
 - CT Abdomen/Pelvis (CT AP)  
 - CT Chest  
+- CT Chest/Abdomen/Pelvis (CT CAP)
 
 ---
 

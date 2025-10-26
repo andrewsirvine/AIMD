@@ -1,0 +1,26 @@
+section,keyword,synonyms,priority,negation_safe
+LIVER,liver,"hepatic,hepatic lobe",10,true
+GALLBLADDER/BILIARY,gallbladder,"cholelithiasis,biliary",8,true
+PANCREAS,pancreas,"pancreatic",8,false
+SPLEEN,spleen,"splenic",7,false
+ADRENALS,adrenal,"adrenal gland,glands",7,false
+KIDNEYS/URETERS,kidney,"renal,ureter,collecting system",10,false
+URINARY BLADDER,bladder,"urinary bladder",6,false
+REPRODUCTIVE,uterus,"ovaries,prostate",5,false
+STOMACH,stomach,"gastric",5,false
+SMALL BOWEL,jejunum,"ileum,small bowel",5,false
+COLON,colon,"colonic,colonoscopic",5,false
+APPENDIX,appendix,"appendiceal",10,false
+PERITONEUM,peritoneum,"ascites,mesentery,omentum",8,false
+LYMPH NODES,lymph,"adenopathy,lymph node",9,false
+VASCULATURE,aorta,"vascular,artery,aneurysm",9,false
+BODY WALL,hernia,"abdominal wall,body wall",7,false
+MUSCULOSKELETAL,vertebral,"osseous,bone",6,false
+LOWER CHEST,basilar,"basal,lower lobe",6,false
+HEART,cardiac,"heart,cardiomegaly",7,false
+VESSELS,vascular,"pulmonary artery,aortic",7,false
+MEDIASTINUM,mediastinum,"prevascular,subcarinal",8,false
+LUNGS/PLEURA,lung,"pulmonary,airspace,pleura,pleural",10,false
+CHEST WALL,chest wall,"thoracic wall",6,false
+UPPER ABDOMEN,upper abdomen,"upper abdominal",5,false
+GASTROINTESTINAL,bowel,"intestine",5,false

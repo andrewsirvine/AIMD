@@ -1,0 +1,15 @@
+{
+  "exam": "CT CHEST",
+  "sections": [
+    { "name": "LOWER NECK", "default": "Normal." },
+    { "name": "HEART", "default": "Normal." },
+    { "name": "VESSELS", "default": "Normal." },
+    { "name": "MEDIASTINUM", "default": "Normal." },
+    { "name": "LUNGS/PLEURA", "default": "Normal." },
+    { "name": "LYMPH NODES", "default": "None enlarged." },
+    { "name": "CHEST WALL", "default": "Normal." },
+    { "name": "MUSCULOSKELETAL", "default": "No acute abnormality." },
+    { "name": "UPPER ABDOMEN", "default": "No significant abnormality." }
+  ],
+  "impression_style": { "bulleted": true, "terse": true }
+}

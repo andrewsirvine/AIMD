@@ -1,0 +1,24 @@
+{
+  "exam": "CT CHEST ABDOMEN PELVIS",
+  "sections": [
+    { "name": "LOWER NECK", "default": "Normal." },
+    { "name": "HEART", "default": "Normal." },
+    { "name": "VESSELS", "default": "Normal." },
+    { "name": "MEDIASTINUM", "default": "Normal." },
+    { "name": "LUNGS/PLEURA", "default": "Normal." },
+    { "name": "LYMPH NODES", "default": "None enlarged." },
+    { "name": "CHEST WALL", "default": "Normal." },
+    { "name": "LIVER", "default": "Normal." },
+    { "name": "GALLBLADDER/BILIARY", "default": "Normal." },
+    { "name": "PANCREAS", "default": "Normal." },
+    { "name": "SPLEEN", "default": "Normal." },
+    { "name": "ADRENALS", "default": "Normal." },
+    { "name": "KIDNEYS/URETERS", "default": "Normal." },
+    { "name": "URINARY BLADDER", "default": "Normal." },
+    { "name": "REPRODUCTIVE", "default": "Normal." },
+    { "name": "GASTROINTESTINAL", "default": "Normal." },
+    { "name": "PERITONEUM", "default": "Normal." },
+    { "name": "MUSCULOSKELETAL", "default": "No acute abnormality." }
+  ],
+  "impression_style": { "bulleted": true, "terse": true }
+}

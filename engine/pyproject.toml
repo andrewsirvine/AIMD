@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "aimd-engine"
+version = "0.1.0"
+description = "Local-first radiology reporting engine for AIMDiagnostic Imaging Report Builder."
+authors = ["AIMD Team"]
+readme = "README.md"
+packages = [{ include = "engine" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.110.0"
+uvicorn = { extras = ["standard"], version = "^0.29.0" }
+pydantic = "^2.5.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.0"
+httpx = "^0.27.0"
+anyio = "^4.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

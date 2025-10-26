@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aimd.local/schemas/generate-request.schema.json",
+  "title": "Generate Request",
+  "type": "object",
+  "required": ["exam", "dictation"],
+  "properties": {
+    "exam": {
+      "type": "string",
+      "description": "Exam identifier matching a registered template."
+    },
+    "dictation": {
+      "type": "string",
+      "description": "Raw radiologist dictation."
+    },
+    "indication": {
+      "type": ["string", "null"]
+    },
+    "comparison": {
+      "type": ["string", "null"]
+    }
+  },
+  "additionalProperties": false
+}

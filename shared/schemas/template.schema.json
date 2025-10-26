@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aimd.local/schemas/template.schema.json",
+  "title": "Exam Template",
+  "type": "object",
+  "required": ["exam", "sections"],
+  "properties": {
+    "exam": {
+      "type": "string",
+      "description": "Display name for the exam."
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["name", "default"],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "default": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "impression_style": {
+      "type": "object",
+      "properties": {
+        "bulleted": { "type": "boolean" },
+        "terse": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

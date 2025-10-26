@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://aimd.local/schemas/generate-response.schema.json",
+  "title": "Generate Response",
+  "type": "object",
+  "required": ["exam", "findings", "impression", "unmatched"],
+  "properties": {
+    "exam": { "type": "string" },
+    "findings": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "impression": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "unmatched": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "timings_ms": {
+      "type": "object",
+      "additionalProperties": { "type": "number" }
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    }
+  },
+  "additionalProperties": false
+}
